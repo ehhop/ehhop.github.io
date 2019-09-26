@@ -1,0 +1,142 @@
+body {
+  padding-top: 20px;
+  width: 80%;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  color: #201b54;
+  text-align: center;
+  background-color: transparent;
+  margin-bottom: 10 px;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+.logo {
+  padding-bottom: 2%;
+  width: 50%;
+  height: auto;
+  padding-top: 2%;
+}
+
+.jumbotron h2 {
+  font-size: 35px;
+  font-weight: bold;
+/*  text-decoration: underline;*/
+}
+
+.jumbotron .top-line {
+  margin-bottom: 0;
+}
+
+.jumbotron .bot-line {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Header/Title for Presentation Page */
+
+.center-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Bold Text */
+.bold {
+    font-weight: bold;
+}
+
+/* About Us */
+.well {
+    background-color: #201b54;
+    color: #ffffff;
+}
+
+/* Center for Select Projects */
+.row .col-lg-4 {
+    text-align: center;
+}
+
+.row .col-lg-4 .p-l-align {
+    text-align: left;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 2.5%;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-inverse .navbar-brand {
+  color: #ffffff;
+  font-weight: bold;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #201b54;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.navbar-inverse .navbar-nav .active a {
+  background-color: #5a588c;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color:  #ffffff;
+}
+.navbar-inverse .navbar-nav > li:hover {
+  background-color: #4b477d;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+/*Text Alignment on About page*/
+p.p-desc-text {
+    text-align: center;
+}
+
+/*Accordian Link Not Underlined on Active*/
+.NoLineActive, .NoLineActive:focus {
+  text-decoration:none;
+}
+
+.NoLineActive:hover {
+  text-decoration: underline;
+}
+
+/*PDF viewer CSS*/
+.pdfobject-container {
+  height: 60rem;
+}
